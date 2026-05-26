@@ -1,0 +1,239 @@
+# ============================================================
+# BUSCADOR DE VUELOS - MAD A CERDEÑA
+# ============================================================
+# 3 aeropuertos: Cagliari (CAG), Olbia (OLB), Alghero (AHO)
+# 6 opciones de ida: 26, 27, 28, 29, 30 junio o 1 julio
+# Vuelta exactamente 7 dias despues de cada ida.
+# 1 pasajero, carry-on.
+# Umbral: 150 EUR/persona ida+vuelta (oferta para verano)
+# ============================================================
+
+rutas:
+
+  # ===========================================================
+  # CAGLIARI (CAG) - Sur de Cerdena
+  # ===========================================================
+
+  - nombre: "MAD → CAG | 26jun - 3jul"
+    origen: "MAD"
+    destino: "CAG"
+    pasajeros: 1
+    fechas_ida:
+      - "2026-06-26"
+    fechas_vuelta:
+      - "2026-07-03"
+    umbral_precio: 150
+    moneda: "EUR"
+    solo_carry_on: true
+
+  - nombre: "MAD → CAG | 27jun - 4jul"
+    origen: "MAD"
+    destino: "CAG"
+    pasajeros: 1
+    fechas_ida:
+      - "2026-06-27"
+    fechas_vuelta:
+      - "2026-07-04"
+    umbral_precio: 150
+    moneda: "EUR"
+    solo_carry_on: true
+
+  - nombre: "MAD → CAG | 28jun - 5jul"
+    origen: "MAD"
+    destino: "CAG"
+    pasajeros: 1
+    fechas_ida:
+      - "2026-06-28"
+    fechas_vuelta:
+      - "2026-07-05"
+    umbral_precio: 150
+    moneda: "EUR"
+    solo_carry_on: true
+
+  - nombre: "MAD → CAG | 29jun - 6jul"
+    origen: "MAD"
+    destino: "CAG"
+    pasajeros: 1
+    fechas_ida:
+      - "2026-06-29"
+    fechas_vuelta:
+      - "2026-07-06"
+    umbral_precio: 150
+    moneda: "EUR"
+    solo_carry_on: true
+
+  - nombre: "MAD → CAG | 30jun - 7jul"
+    origen: "MAD"
+    destino: "CAG"
+    pasajeros: 1
+    fechas_ida:
+      - "2026-06-30"
+    fechas_vuelta:
+      - "2026-07-07"
+    umbral_precio: 150
+    moneda: "EUR"
+    solo_carry_on: true
+
+  - nombre: "MAD → CAG | 1jul - 8jul"
+    origen: "MAD"
+    destino: "CAG"
+    pasajeros: 1
+    fechas_ida:
+      - "2026-07-01"
+    fechas_vuelta:
+      - "2026-07-08"
+    umbral_precio: 150
+    moneda: "EUR"
+    solo_carry_on: true
+
+  # ===========================================================
+  # OLBIA (OLB) - Norte de Cerdena / Costa Esmeralda
+  # ===========================================================
+
+  - nombre: "MAD → OLB | 26jun - 3jul"
+    origen: "MAD"
+    destino: "OLB"
+    pasajeros: 1
+    fechas_ida:
+      - "2026-06-26"
+    fechas_vuelta:
+      - "2026-07-03"
+    umbral_precio: 150
+    moneda: "EUR"
+    solo_carry_on: true
+
+  - nombre: "MAD → OLB | 27jun - 4jul"
+    origen: "MAD"
+    destino: "OLB"
+    pasajeros: 1
+    fechas_ida:
+      - "2026-06-27"
+    fechas_vuelta:
+      - "2026-07-04"
+    umbral_precio: 150
+    moneda: "EUR"
+    solo_carry_on: true
+
+  - nombre: "MAD → OLB | 28jun - 5jul"
+    origen: "MAD"
+    destino: "OLB"
+    pasajeros: 1
+    fechas_ida:
+      - "2026-06-28"
+    fechas_vuelta:
+      - "2026-07-05"
+    umbral_precio: 150
+    moneda: "EUR"
+    solo_carry_on: true
+
+  - nombre: "MAD → OLB | 29jun - 6jul"
+    origen: "MAD"
+    destino: "OLB"
+    pasajeros: 1
+    fechas_ida:
+      - "2026-06-29"
+    fechas_vuelta:
+      - "2026-07-06"
+    umbral_precio: 150
+    moneda: "EUR"
+    solo_carry_on: true
+
+  - nombre: "MAD → OLB | 30jun - 7jul"
+    origen: "MAD"
+    destino: "OLB"
+    pasajeros: 1
+    fechas_ida:
+      - "2026-06-30"
+    fechas_vuelta:
+      - "2026-07-07"
+    umbral_precio: 150
+    moneda: "EUR"
+    solo_carry_on: true
+
+  - nombre: "MAD → OLB | 1jul - 8jul"
+    origen: "MAD"
+    destino: "OLB"
+    pasajeros: 1
+    fechas_ida:
+      - "2026-07-01"
+    fechas_vuelta:
+      - "2026-07-08"
+    umbral_precio: 150
+    moneda: "EUR"
+    solo_carry_on: true
+
+  # ===========================================================
+  # ALGHERO (AHO) - Noroeste de Cerdena
+  # ===========================================================
+
+  - nombre: "MAD → AHO | 26jun - 3jul"
+    origen: "MAD"
+    destino: "AHO"
+    pasajeros: 1
+    fechas_ida:
+      - "2026-06-26"
+    fechas_vuelta:
+      - "2026-07-03"
+    umbral_precio: 150
+    moneda: "EUR"
+    solo_carry_on: true
+
+  - nombre: "MAD → AHO | 27jun - 4jul"
+    origen: "MAD"
+    destino: "AHO"
+    pasajeros: 1
+    fechas_ida:
+      - "2026-06-27"
+    fechas_vuelta:
+      - "2026-07-04"
+    umbral_precio: 150
+    moneda: "EUR"
+    solo_carry_on: true
+
+  - nombre: "MAD → AHO | 28jun - 5jul"
+    origen: "MAD"
+    destino: "AHO"
+    pasajeros: 1
+    fechas_ida:
+      - "2026-06-28"
+    fechas_vuelta:
+      - "2026-07-05"
+    umbral_precio: 150
+    moneda: "EUR"
+    solo_carry_on: true
+
+  - nombre: "MAD → AHO | 29jun - 6jul"
+    origen: "MAD"
+    destino: "AHO"
+    pasajeros: 1
+    fechas_ida:
+      - "2026-06-29"
+    fechas_vuelta:
+      - "2026-07-06"
+    umbral_precio: 150
+    moneda: "EUR"
+    solo_carry_on: true
+
+  - nombre: "MAD → AHO | 30jun - 7jul"
+    origen: "MAD"
+    destino: "AHO"
+    pasajeros: 1
+    fechas_ida:
+      - "2026-06-30"
+    fechas_vuelta:
+      - "2026-07-07"
+    umbral_precio: 150
+    moneda: "EUR"
+    solo_carry_on: true
+
+  - nombre: "MAD → AHO | 1jul - 8jul"
+    origen: "MAD"
+    destino: "AHO"
+    pasajeros: 1
+    fechas_ida:
+      - "2026-07-01"
+    fechas_vuelta:
+      - "2026-07-08"
+    umbral_precio: 150
+    moneda: "EUR"
+    solo_carry_on: true

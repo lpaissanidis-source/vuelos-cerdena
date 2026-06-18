@@ -1,8 +1,6 @@
 name: Buscar Vuelos Cerdena
 
 on:
-  schedule:
-    - cron: '0 22,1,4,7,10,13,16,19 * * *'  # c/3h desde 00:00 Madrid (CEST = UTC+2)
   workflow_dispatch:                           # Permite lanzarlo manualmente desde GitHub
 
 jobs:
